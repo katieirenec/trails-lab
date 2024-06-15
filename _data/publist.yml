@@ -1,0 +1,23 @@
+
+- title: "Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems"
+  image: test.png
+  description: a 40 word description of the work (only required if we want to highlight it)
+  authors: Mehmet Arif Demirtaş, Max Fowler, Kathryn Cunningham
+  link:
+    url: https://osf.io/preprints/edarxiv/y4tqr
+    display: 17th International Conference on Educational Data Mining (EDM 2024)
+  logos:
+    - {name: PDF,
+       link: pdf-link}
+    - {name: Paper,
+       link: ACM-dl-link}
+  highlight: 1
+
+# - title: ""
+#   image: test.png
+#   description: a 40 word description of the work (only required if we want to highlight it)
+#   authors: comma separated author list
+#   link:
+#     url: link
+#     display: the formatted venue name
+#   highlight: 1

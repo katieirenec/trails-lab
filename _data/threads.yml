@@ -1,0 +1,17 @@
+
+- title: "Learning Curve Analysis in Programming Education"
+  image: test.png
+  description: we can have high level research threads, and potentially links to publications on them?
+  link:
+    url: https://osf.io/preprints/edarxiv/y4tqr
+    display: Proceedings of the 17th International Conference on Educational Data Mining (EDM 2024)
+  highlight: 1
+
+# - title: ""
+#   image: test.png
+#   description: a 40 word description of the work (only required if we want to highlight it)
+#   authors: comma separated author list
+#   link:
+#     url: link
+#     display: the formatted venue name
+#   highlight: 1
