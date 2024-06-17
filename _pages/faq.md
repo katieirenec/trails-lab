@@ -3,7 +3,7 @@ title: "faq"
 layout: textlay
 excerpt: "TRAILS Lab @ University of Illinois Urbana-Champaign"
 sitemap: true
-permalink: /faq.html
+permalink: /faq
 ---
 
 # Frequently Asked Questions
