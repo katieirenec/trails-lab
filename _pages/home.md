@@ -18,8 +18,11 @@ Probably replace this with a group image?
 </div>
 
 
-This is taken from Katie's page. Using human-centered computing methods in the context of computer science education, her research improves learners’ motivation and cognition while learning programming, with a long-term goal of broadening pathways to computing education.
-Dr. Cunningham’s current focus is on understanding and supporting novice learners with diverse goals, and developing new software-supported scaffolding that allows learners to focus on code’s purpose.
+We want all computing learners to achieve their goals (and perhaps aim for goals they previously thought impossible). We respect that different learners want to reach different endpoints with their computing knowledge, and meeting the needs of all learners will require building a variety of pathways to computing education.
+
+We believe that everyone should have the opportunity to learn computing in a way that motivates them and supports their needs. We use approaches from human-computer interaction and computing education to understand learners' goals and experiences, build educational interventions inspired by learning theory, and evaluate the effectiveness of these new approaches. 
+
+Our name is inspired by the efforts of the National Park Service to make breathtakingly beautiful and previously inaccessible wilderness reachable by the general public. 
 
 {% for thread in site.data.threads %}
 
