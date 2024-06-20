@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /home/trailslab/rubyvenv/repositories_trails-lab/3.2/bin/jekyll build -d $DEPLOYPATH

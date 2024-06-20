@@ -8,7 +8,7 @@ permalink: /
 
 TRAILS LAB website is working!!!!! More details to follow.
 
-Probably replace this with a group image?
+Todo: replace this with a group image
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <div class="carousel-inner" markdown="0">
         <div class="item active">
