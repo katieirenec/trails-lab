@@ -11,7 +11,7 @@ permalink: /publications/
 
 ## Group highlights
 
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications).
+**At the end of this page, you can find the [full list of publications](#full-list-of-publications).
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -54,12 +54,12 @@ permalink: /publications/
 
 <p> &nbsp; </p>
 
->
-## Full List of publications
+
+## Full List of Publications
 
 {% for publi in site.data.publist %}
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  {{ publi.authors }}. {{publi.year}}. <b>{{ publi.title }}</b>.
+  <em><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></em>. 
 
 {% endfor %}
