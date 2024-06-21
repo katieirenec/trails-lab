@@ -5,7 +5,7 @@
   logos: 
   - <a href="https://www.kicunningham.com"><i class="fa-solid fa-user"></i></a>
   - <a href="https://x.com/katieirenec"><i class="fa-brands fa-twitter"></i></a>
-  number_educ: 3
+  number_educ: 0
   education1: Postdoc, Northwestern, 2022
   education2: PhD in Information, Michigan, 2020
   education3: MS in Human-Centered Computing, Georgia Tech, 2018
@@ -25,11 +25,11 @@
 
 - name: Jinyoung (Jina) Hur
   photo: path_to.jpg
-  info: PhD student, started Aug 2023
+  info: PhD student, joined Aug 2023
   email: jhur10@illinois.edu
-  number_educ: 0
-  education1:
-  education2:
+  number_educ: 1
+  education1: broadening participation and promoting inclusion in computing, non-CS majors, students with disabilities
+  # education2:
 
 - name: Yoshee Jain
   photo: yoshee.jpg
