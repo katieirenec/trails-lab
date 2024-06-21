@@ -21,7 +21,7 @@ We want all computing learners to achieve their goals (and perhaps aim for goals
 
 
 
-{% for thread in site.data.threads %}
+<!-- {% for thread in site.data.threads %}
 
 {% if thread.highlight == 1 %}
 
@@ -36,7 +36,7 @@ We want all computing learners to achieve their goals (and perhaps aim for goals
 </div>
 
 </div>
-{% endif %}
+{% endif %} -->
 {% endfor %}
 
 <figure class="fourth">
