@@ -1,11 +1,14 @@
 - name: Kathryn 'Katie' Cunningham
-  photo: path_to.jpg
-  info: Assistant professor, started July 2022
+  photo: katie.jpg
+  info: Assistant Professor, started July 2022
   email: katcun@illinois.edu
-  number_educ: 2
-  education1: Postdoc, Northwestern University, 2022
-  education2: PhD in Information, University of Michigan, 2020
-  # education3:
+  logos: 
+  - <a href="https://www.kicunningham.com"><i class="fa-solid fa-user"></i></a>
+  - <a href="https://x.com/katieirenec"><i class="fa-brands fa-twitter"></i></a>
+  number_educ: 3
+  education1: Postdoc, Northwestern, 2022
+  education2: PhD in Information, Michigan, 2020
+  education3: MS in Human-Centered Computing, Georgia Tech, 2018
   # education4:
   # education5:
 
