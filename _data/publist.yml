@@ -1,11 +1,26 @@
 
 - title: "Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems"
-  image: test.png
-  description: a 40 word description of the work (only required if we want to highlight it)
+  image: edm2024.png
+  description: Can we automatically detect student development on language structures using abstract syntax trees (AST)? In this replication study, we found that AST nodes can be used to track student learning to some extent.
   authors: Mehmet Arif Demirtaş, Max Fowler, Kathryn Cunningham
   link:
     url: https://osf.io/preprints/edarxiv/y4tqr
     display: 17th International Conference on Educational Data Mining (EDM 2024)
+  logos:
+    - {name: PDF,
+       link: pdf-link}
+    - {name: Paper,
+       link: ACM-dl-link}
+  highlight: 1
+  year: 2024
+
+- title: "Validating, Refining, and Identifying Programming Plans Using Learning Curve Analysis on Code Writing Data"
+  image: edm2024.png
+  description: Can programming plans represent the key skills in introductory programming? In this work, we applied learning curve analysis using plans as knowledge components and found that some plans are associated with discrete skills acquired by students.
+  authors: Mehmet Arif Demirtaş, Max Fowler, Nicole Hu, Kathryn Cunningham
+  link:
+    url: 
+    display: 20th ACM Conference on International Computing Education Research (ICER 2024)
   logos:
     - {name: PDF,
        link: pdf-link}
