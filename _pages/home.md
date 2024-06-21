@@ -22,8 +22,6 @@ We want all computing learners to achieve their goals (and perhaps aim for goals
 
 We believe that everyone should have the opportunity to learn computing in a way that motivates them and supports their needs. We use approaches from human-computer interaction and computing education to understand learners' goals and experiences, build educational interventions inspired by learning theory, and evaluate the effectiveness of these new approaches. 
 
-Our name is inspired by the efforts of the National Park Service to make breathtakingly beautiful and previously inaccessible wilderness reachable by the general public. 
-
 {% for thread in site.data.threads %}
 
 {% if thread.highlight == 1 %}
