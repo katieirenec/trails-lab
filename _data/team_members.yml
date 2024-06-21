@@ -13,14 +13,14 @@
   # education5:
 
 - name: Mehmet Arif Demirtaş
-  photo: path_to.jpg
+  photo: arif.jpg
   info: PhD student, started Aug 2023
   email: mad16@illinois.edu
   logos: 
   - <a href="https://marifdemirtas.github.io"><i class="fa-solid fa-user"></i></a>
   - <a href="https://x.com/marifdemirtas"><i class="fa-brands fa-twitter"></i></a>
   number_educ: 1
-  education1: human-computer interaction, computing education research
+  education1: human-computer interaction, computing education research, learning analytics
   education2:
 
 - name: Jinyoung (Jina) Hur
