@@ -32,12 +32,15 @@
   education2:
 
 - name: Yoshee Jain
-  photo: path_to.jpg
-  info: BSc student, started Sep 2021
+  photo: yoshee.jpg
+  info: BSc student, joined Jan 2023
   email: yosheej2@illinois.edu
-  number_educ: 0
-  education1: 
-  education2: 
+  logos: 
+  - <a href="https://yosheejain.github.io/"><i class="fa-solid fa-user"></i></a>
+  - <a href="https://yosheejain.github.io/"><i class="fa-brands fa-linkedin"></i></a>
+  number_educ: 1
+  education1: human-computer interaction, AI in education, computing education research
+  # education2: 
 
 # - name: "This could be you !"
 #   photo: rock.jpg
