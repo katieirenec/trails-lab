@@ -130,4 +130,4 @@ permalink: /team/
 {% endfor %}
 </div> -->
 
-</div>
+<!-- </div> -->
