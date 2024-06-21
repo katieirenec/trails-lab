@@ -105,7 +105,7 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %} -->
-
+<!-- 
 ## Alumni & Visitors
 <div class="row">
 
@@ -128,6 +128,6 @@ permalink: /team/
 {% for member in site.data.alumni_bsc %}
 {{ member.name }}
 {% endfor %}
-</div>
+</div> -->
 
 </div>
