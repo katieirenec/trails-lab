@@ -39,6 +39,3 @@ We want all computing learners to achieve their goals (and perhaps aim for goals
 {% endif %} -->
 {% endfor %}
 
-<figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/logo_Illinois.png" style="width: 40px">
-</figure>
