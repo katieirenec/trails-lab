@@ -1,18 +1,6 @@
 
-- title: "Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems"
-  image: edm2024.png
-  description: Can we automatically detect student development on language structures using abstract syntax trees (AST)? In this replication study, we found that AST nodes can be used to track student learning to some extent.
-  authors: Mehmet Arif Demirtaş, Max Fowler, Kathryn Cunningham
-  link:
-    url: https://osf.io/preprints/edarxiv/y4tqr
-    display: 17th International Conference on Educational Data Mining (EDM 2024)
-  logos:
-    - {name: PDF,
-       link: pdf-link}
-    - {name: Paper,
-       link: ACM-dl-link}
-  highlight: 1
-  year: 2024
+# Note: This format cares a lot about indentation
+
 
 - title: "Validating, Refining, and Identifying Programming Plans Using Learning Curve Analysis on Code Writing Data"
   image: icer2024-arif.png
@@ -29,6 +17,39 @@
   highlight: 1
   year: 2024
 
+
+- title: "Profiling Conversational Programmers at University: Insights into their Motivations and Goals from a Broad Sample of Non-Majors"
+  image: icer2024-jina.png
+  description: How prevalent are conversational programmers, and how do their attitudes and interests differ from end-user programmers? In this study, we found that conversational programmers are more common among non-majors than end-user programmers, but they face more challenges in their motivation for computing.
+  authors: Jinyoung Hur, Kathryn Cunningham
+  link:
+    url: 
+    display: 20th ACM Conference on International Computing Education Research (ICER 2024)
+  logos:
+    - {name: PDF,
+       link: pdf-link}
+    - {name: Paper,
+       link: ACM-dl-link}
+  highlight: 1
+  year: 2024
+
+- title: "Reexamining Learning Curve Analysis in Programming Education: The Value of Many Small Problems"
+  image: edm2024.png
+  description: Can we automatically detect student development on language structures using abstract syntax trees (AST)? In this replication study, we found that AST nodes can be used to track student learning to some extent.
+  authors: Mehmet Arif Demirtaş, Max Fowler, Kathryn Cunningham
+  link:
+    url: https://osf.io/preprints/edarxiv/y4tqr
+    display: 17th International Conference on Educational Data Mining (EDM 2024)
+  logos:
+    - {name: PDF,
+       link: pdf-link}
+    - {name: Paper,
+       link: ACM-dl-link}
+  highlight: 1
+  year: 2024
+
+
+
 # - title: ""
 #   image: test.png
 #   description: a 40 word description of the work (only required if we want to highlight it)
@@ -37,3 +58,36 @@
 #     url: link
 #     display: the formatted venue name
 #   highlight: 1
+
+
+# Collaboration papers not a part of the main TRAILS Lab vision
+
+- title: "Implementation of Split Deadlines in a Large CS1 Course."
+  image: test.png
+  description: a 40 word description of the work (only required if we want to highlight it)
+  authors: Hongxuan Chen, Ang Li, Geoffrey Challen, and Kathryn Cunningham
+  link:
+    url: https://doi.org/10.1145/3626252.3630873
+    display: In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSE 2024).
+  logos:
+    - {name: PDF,
+       link: pdf-link}
+    - {name: Paper,
+       link: ACM-dl-link}
+  highlight: 0
+  year: 2024
+
+- title: "The Landscape of Computer Science Education Courses: A Syllabi Analysis"
+  image: test.png
+  description: a 40 word description of the work (only required if we want to highlight it)
+  authors: Kathryn Cunningham, Miranda C. Parker, and Jonathan Zhang
+  link:
+    url: https://doi.org/10.1145/3631802.3631831
+    display: 23rd Koli Calling International Conference on Computing Education Research (Koli Calling '23)
+  logos:
+    - {name: PDF,
+       link: pdf-link}
+    - {name: Paper,
+       link: ACM-dl-link}
+  highlight: 0
+  year: 2023
