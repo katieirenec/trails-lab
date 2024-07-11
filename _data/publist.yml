@@ -11,9 +11,9 @@
     display: 20th ACM Conference on International Computing Education Research (ICER 2024)
   logos:
     - {name: PDF,
-       link: pdf-link}
-    - {name: Paper,
-       link: ACM-dl-link}
+       link: /pubs/ICER2024_ValidatingPlanswithLCA.pdf}
+    # - {name: Paper,
+    #    link: ACM-dl-link}
   highlight: 1
   year: 2024
 
@@ -26,10 +26,10 @@
     url: 
     display: 20th ACM Conference on International Computing Education Research (ICER 2024)
   logos:
-    - {name: PDF,
-       link: pdf-link}
-    - {name: Paper,
-       link: ACM-dl-link}
+    # - {name: PDF,
+    #    link: pdf-link}
+    # - {name: Paper,
+    #    link: ACM-dl-link}
   highlight: 1
   year: 2024
 
@@ -42,9 +42,9 @@
     display: 17th International Conference on Educational Data Mining (EDM 2024)
   logos:
     - {name: PDF,
-       link: pdf-link}
-    - {name: Paper,
-       link: ACM-dl-link}
+       link: /pubs/EDM2024_ReexaminingLearningCurveAnalysis.pdf}
+    # - {name: Paper,
+    #    link: ACM-dl-link}
   highlight: 1
   year: 2024
 
