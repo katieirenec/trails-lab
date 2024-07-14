@@ -38,13 +38,17 @@
   description: Can we automatically detect student development on language structures using abstract syntax trees (AST)? In this replication study, we found that AST nodes can be used to track student learning to some extent.
   authors: Mehmet Arif Demirtaş, Max Fowler, Kathryn Cunningham
   link:
-    url: https://osf.io/preprints/edarxiv/y4tqr
+    url: http://doi.org/10.5281/zenodo.12729773
     display: 17th International Conference on Educational Data Mining (EDM 2024)
   logos:
     - {name: PDF,
        link: /pubs/EDM2024_ReexaminingLearningCurveAnalysis.pdf}
-    # - {name: Paper,
-    #    link: ACM-dl-link}
+    - {name: DOI,
+       link: http://doi.org/10.5281/zenodo.12729773}
+    - {name: Blog,
+       link: https://medium.com/@katieirenec/edm-2024-reexamining-learning-curve-analysis-in-programming-education-the-value-of-many-small-3d59d03f90e1}
+    - {name: Video,
+       link: https://youtu.be/OlPgLmhpTwI}
   highlight: 1
   year: 2024
 
