@@ -44,11 +44,11 @@
     - {name: PDF,
        link: /pubs/EDM2024_ReexaminingLearningCurveAnalysis.pdf}
     - {name: DOI,
-       link: http://doi.org/10.5281/zenodo.12729773}
+       link: 'https://doi.org/10.5281/zenodo.12729773'}
     - {name: Blog,
-       link: https://medium.com/@katieirenec/edm-2024-reexamining-learning-curve-analysis-in-programming-education-the-value-of-many-small-3d59d03f90e1}
+       link: 'https://medium.com/@katieirenec/edm-2024-reexamining-learning-curve-analysis-in-programming-education-the-value-of-many-small-3d59d03f90e1'}
     - {name: Video,
-       link: https://youtu.be/OlPgLmhpTwI}
+       link: 'https://youtu.be/OlPgLmhpTwI'}
   highlight: 1
   year: 2024
 
