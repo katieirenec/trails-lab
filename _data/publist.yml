@@ -26,8 +26,8 @@
     url: 
     display: 20th ACM Conference on International Computing Education Research (ICER 2024)
   logos:
-    # - {name: PDF,
-    #    link: pdf-link}
+    - {name: PDF,
+       link: /pubs/ICER2024_JH_Profiling_CPs_Full_Paper.pdf}
     # - {name: Paper,
     #    link: ACM-dl-link}
   highlight: 1
