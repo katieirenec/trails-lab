@@ -13,9 +13,9 @@
     - {name: PDF,
        link: /pubs/ICER2024_ValidatingPlanswithLCA.pdf}
     - {name: DOI,
-      link: https://doi.org/10.1145/3632620.3671120}
+      link: 'https://doi.org/10.1145/3632620.3671120'}
     - {name: Blog,
-      link: https://medium.com/@katieirenec/icer-2024-validating-refining-and-identifying-programming-plans-using-learning-curve-analysis-bf954425b1df}
+      link: 'https://medium.com/@katieirenec/icer-2024-validating-refining-and-identifying-programming-plans-using-learning-curve-analysis-bf954425b1df'}
   highlight: 1
   year: 2024
 
@@ -32,7 +32,7 @@
        link: /pubs/ICER2024_JH_Profiling_CPs_Full_Paper.pdf}
     - {name: DOI,
        link: 'https://doi.org/10.1145/3632620.3671123'}
-   - {name: Blog,
+    - {name: Blog,
        link: 'https://medium.com/@katieirenec/icer-2024-profiling-conversational-programmers-at-university-insights-into-their-motivations-and-c25ab7ee5f5c'}
   highlight: 1
   year: 2024
