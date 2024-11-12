@@ -99,3 +99,34 @@
        link: ACM-dl-link}
   highlight: 0
   year: 2023
+
+- title: "Bringing High-level Down to Earth: Gaining Clarity in Conversational Programmer Learning Goals"
+  image: test.png
+  description: a 40 word description of the work (only required if we want to highlight it)
+  authors: Kathryn Cunningham, Yike Qiao, Alex Feng, and Eleanor O’Rourke
+  link:
+    url: https://doi.org/10.1145/3478431.3499370
+    display: 53rd ACM Technical Symposium on Computer Science Education (SIGCSE 2022)
+  logos:
+    - {name: PDF,
+       link: pdf-link}
+    - {name: Paper,
+       link: ACM-dl-link}
+  highlight: 0
+  year: 2022
+
+- title: "Avoiding the Turing Tarpit: Learning Conversational Programming by Starting from Code’s Purpose"
+  image: test.png
+  description: a 40 word description of the work (only required if we want to highlight it)
+  authors: Kathryn Cunningham, Barbara Ericson, Rahul Agrawal Bejarano, and Mark Guzdial
+  link:
+    url: https://doi.org/10.1145/3411764.3445571
+    display: CHI Conference on Human Factors in Computing Systems (CHI ’21)
+  logos:
+    - {name: PDF,
+       link: pdf-link}
+    - {name: Paper,
+       link: ACM-dl-link}
+  highlight: 0
+  year: 2021
+
