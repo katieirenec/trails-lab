@@ -11,11 +11,11 @@
     display: 43rd ACM Conference on Human Factors in Computing Systems (CHI 2025)
   logos:
     - {name: Preprint,
-       link: https://arxiv.org/abs/2502.10618}
+       link: 'https://arxiv.org/abs/2502.10618'}
     - {name: Demo,
-       link: http://tryplaid.web.illinois.edu}
+       link: 'http://tryplaid.web.illinois.edu'}
     - {name: GitHub,
-       link: https://github.com/yosheejain/plaid-interface}
+       link: 'https://github.com/yosheejain/plaid-interface'}
     # - {name: DOI,
     #   link: 'https://doi.org/10.1145/3632620.3671120'}
     # - {name: Blog,
