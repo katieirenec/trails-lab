@@ -2,6 +2,27 @@
 # Note: This format cares a lot about indentation
 
 
+- title: "PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at Scale"
+  image: chi2025.png
+  description: How does instructors identify common patterns in a computing domain? Can we help them by automating information gathering with LLMs? In this work, we interviewed 10 computing educators to understand their challenges in programming plan identification, and designed PLAID for supporting them in information gathering and refinement tasks through design workshops. An user study with 12 participants showed that PLAID helps instructors to identify programming plans faster, with smaller workload, and with more satisfaction.
+  authors: Yoshee Jain*, Mehmet Arif Demirtaş*, Kathryn Cunningham
+  link:
+    url: 
+    display: 43rd ACM Conference on Human Factors in Computing Systems (CHI 2025)
+  logos:
+    - {name: Preprint,
+       link: https://arxiv.org/abs/2502.10618}
+    - {name: Demo,
+       link: http://tryplaid.web.illinois.edu}
+    - {name: GitHub,
+       link: https://github.com/yosheejain/plaid-interface}
+    # - {name: DOI,
+    #   link: 'https://doi.org/10.1145/3632620.3671120'}
+    # - {name: Blog,
+    #   link: 'https://medium.com/@katieirenec/icer-2024-validating-refining-and-identifying-programming-plans-using-learning-curve-analysis-bf954425b1df'}
+  highlight: 1
+  year: 2025
+
 - title: "Validating, Refining, and Identifying Programming Plans Using Learning Curve Analysis on Code Writing Data"
   image: icer2024-arif.png
   description: Can programming plans represent the key skills in introductory programming? In this work, we applied learning curve analysis using plans as knowledge components and found that some plans are associated with discrete skills acquired by students.
