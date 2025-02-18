@@ -5,7 +5,7 @@
 - title: "PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at Scale"
   image: chi2025.png
   description: How do instructors identify common patterns in a computing domain? Can we help them by automating information gathering with LLMs? In this work, we interviewed 10 computing educators to understand their challenges in programming plan identification, and designed PLAID for supporting them in information gathering and refinement tasks through design workshops. An user study with 12 participants showed that PLAID helps instructors to identify programming plans faster, with smaller workload, and with more satisfaction.
-  authors: Yoshee Jain*, Mehmet Arif Demirtaş*, Kathryn Cunningham
+  authors: Yoshee Jain\*, Mehmet Arif Demirtaş\*, Kathryn Cunningham
   link:
     url: 
     display: 43rd ACM Conference on Human Factors in Computing Systems (CHI 2025)
