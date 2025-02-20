@@ -11,6 +11,8 @@
   logos:
   highlight: 0
   year: 2025
+  note: "<i>To learn more, <a href='/publications/major-switching.html'>click here.</a></i>"
+
 
 - title: "Detecting Programming Plans in Open-ended Code Submissions (Poster)"
   image: null
