@@ -1,6 +1,28 @@
 
 # Note: This format cares a lot about indentation
 
+- title: "Patterns of Major Switching and Persistence in Computing among Students with Disabilities (Poster)"
+  image: null
+  description: null
+  authors: Jinyoung Hur, Michael M Kang, and Kathryn Cunningham
+  link:
+    url: https://dl.acm.org/doi/10.1145/3641555.3705226
+    display: In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2025)
+  logos:
+  highlight: 0
+  year: 2025
+
+- title: "Detecting Programming Plans in Open-ended Code Submissions (Poster)"
+  image: null
+  description: null
+  authors: Mehmet Arif Demirtaş, Claire Zheng, and Kathryn Cunningham
+  link:
+    url: https://dl.acm.org/doi/10.1145/3641555.3705166
+    display: In Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 2 (SIGCSE 2025)
+  logos:
+  highlight: 0
+  year: 2025
+  note: "<i>To learn more, <a href='/publications/plan-detection'>click here.</a></i>"
 
 - title: "PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at Scale"
   image: chi2025.png
@@ -97,7 +119,7 @@
   authors: Hongxuan Chen, Ang Li, Geoffrey Challen, and Kathryn Cunningham
   link:
     url: https://doi.org/10.1145/3626252.3630873
-    display: In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSE 2024).
+    display: In Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1 (SIGCSE 2024)
   logos:
     - {name: PDF,
        link: pdf-link}
