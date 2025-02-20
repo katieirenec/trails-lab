@@ -22,7 +22,7 @@
   logos:
   highlight: 0
   year: 2025
-  note: "<i>To learn more, <a href='/publications/plan-detection'>click here.</a></i>"
+  note: "<i>To learn more, <a href='/publications/plan-detection.html'>click here.</a></i>"
 
 - title: "PLAID: Supporting Computing Instructors to Identify Domain-Specific Programming Plans at Scale"
   image: chi2025.png
