@@ -1,0 +1,417 @@
+
+    Identify which programming plan is used in a given program. 
+    A programming plan is a canned solution associated with a goal.
+
+    Use the following format:
+    Solution: {instructor_solution}
+    Plan: {planName}
+
+    Here is all the valid plans:
+    sum
+    evennessCheck
+    counting
+    booleanOperatorChaining
+    multiWayBranching
+    linearSearching
+    filterACollection
+    processAllItems
+    findBestInCollection
+    
+    If you do not recognize the plan, use UNKNOWN.
+
+    The answer format is as follows:
+    The user will provide the solution, and you will return the plan. For example:
+    Solution: {Python code}
+    Plan: {PLANNAME}
+
+    You will only generate the last line which is:
+    Plan: {PLANNAME} 
+
+The following are some examples of your task:
+
+Solution: def find_largest_num_mixed_list(a_list):
+    ln = 0
+    for n in a_list:
+        if type(n) != str and n > ln:
+            ln = n
+    return ln
+Plan: findBestInCollection
+
+Solution: def assign_grade(exam_score):
+    if exam_score >= 90:
+        return 'A'
+    elif exam_score >= 80:
+        return 'B'
+    elif exam_score >= 70:
+        return 'C'
+    elif exam_score >= 60:
+        return 'D'
+    else:
+        return 'F'
+Plan: multiWayBranching
+
+Solution: def employee_lookup(departments, employee):
+    for department in departments:
+        dep = departments[department]
+        if employee in dep:
+            return dep[employee]
+Plan: linearSearching
+
+Solution: def string_indicating_positivityOrNegativity(number):
+    if number < 0:
+        return 'negative'
+    elif number > 0:
+        return 'positive'
+    else:
+        return 'zero'
+Plan: multiWayBranching
+
+Solution: def which_vowels_missing(sentence):
+    vowels_possible = ['a','e','i','o','u']
+    vowels_had = []
+    
+    for v in vowels_possible:
+        if v not in sentence.lower():
+            vowels_had.append(v)
+    return vowels_had
+Plan: filterACollection
+
+Solution: def select_short_strings(string_list):
+    # Implement your function here.  Be sure to indent your code block!
+    select = []
+    for s in string_list:
+        if len(s) < 10:
+            select.append(s)
+    return select
+Plan: filterACollection
+
+Solution: def check_value_in_range(value, lower, upper):
+    if lower < value < upper:
+        return True
+    return False
+Plan: booleanOperatorChaining
+
+Solution: def find_shortest_string_with_char(string_list, char):
+    short = "*"*51
+    for s in string_list:
+        if char.lower() in s.lower() and len(s) < len(short):
+            short = s
+    return short
+Plan: findBestInCollection
+
+Solution: def get_receipt(shopping_cart, price_lookup):
+    prices = []
+    for item in shopping_cart:
+        prices.append(price_lookup[item])
+    return prices
+Plan: processAllItems
+
+Solution: def print_dict_keys(dictionary):
+    for k in dictionary:
+        print(k)
+Plan: processAllItems
+
+Solution: def sum_lengths(string_list):
+    # Implement your function here.  Be sure to indent your code block!
+    tl = 0
+    for s in string_list:
+        tl+=len(s)
+    return tl
+Plan: sum
+
+Solution: def count_large_numbers(number_list):
+    count = 0
+    for num in number_list:
+        if num > 100:
+            count += 1
+    return count
+Plan: counting
+
+Solution: def print_countdown(begin):
+    # Implement your function here.  Be sure to indent your code block!
+    for num in range(begin,0,-1):
+        print(num)
+Plan: processAllItems
+
+Solution: def update_dict_with_rules(d1,d2):
+    for key in d2:
+        if key in d1:
+            d1[key] -= d2[key]
+        else:
+            d1[key] = d2[key]
+Plan: filterACollection
+
+Solution: def find_smallest_value_key(data_dict):
+    smallest_val = 10001
+    lkey = ""
+    for key, value in data_dict.items():
+        if value < smallest_val:
+            smallest_val = value
+            lkey = key
+    return lkey
+Plan: findBestInCollection
+
+Solution: def extract_word_with_given_letter(sentence, letter):
+    words = sentence.split()
+    for word in words:
+        if letter.lower() in word.lower():
+            return word
+Plan: linearSearching
+
+Solution: def largest_less_than_threshold(num_list, threshold):
+    largest = -10001
+    for number in num_list:
+        if number > largest and number < threshold:
+            largest = number
+    if largest == -10001:
+        return None
+    else:
+        return largest
+Plan: findBestInCollection|linearSearching|booleanOperatorChaining
+
+Solution: def sum_three_cols(csv):
+    all_lines = csv.split("\n")
+    sums = [0] * len(all_lines[0].split(","))
+    for line in all_lines:
+        s = 0
+        numbers = line.split(",")
+        for i in range(len(numbers)):
+            sums[i]+= int(numbers[i])
+    return sums
+Plan: sum|processAllItems
+
+Solution: def avg_of_a_list(numbers):
+    if len(numbers) == 0:
+        return 0
+    sv = 0
+    for num in numbers:
+        sv += num
+    return sv/len(numbers)
+    
+Plan: sum
+
+Solution: def count_over_100(number_list):
+    count = 0
+    for num in number_list:
+        if num > 100:
+            count += 1
+    return count
+Plan: counting
+
+Solution: def count_string_vals(a_dict):
+    count = 0
+    for val in a_dict.values():
+        if type(val) == str:
+            count +=1
+    return count
+Plan: counting
+
+Solution: def sum_up_to_n(num):
+    s = 0
+    for i in range(num+1):
+        s+=i
+    return s
+Plan: sum
+
+Solution: def is_prime(number):
+    for num in range(2,number-1):
+        if number % num == 0:
+            return False
+    return True
+Plan: linearSearching
+
+Solution: def make_list_from_args(n1,n2,n3,n4):
+    nl = []
+    if n1 % 2 == 0:
+        nl.append(n1)
+    if n2 % 2 == 0:
+        nl.append(n2)
+    if n3 % 2 == 0:
+        nl.append(n3)
+    if n4 % 2 == 0:
+        nl.append(n4)
+    return nl
+Plan: evennessCheck
+
+Solution: def average_numbers(numbers):
+    if len(numbers) == 0:
+        return 0
+    sv = 0
+    for num in numbers:
+        sv += num
+    return sv/len(numbers)
+    
+Plan: sum
+
+Solution: def us_office_eligibility(age_in_years, citizenship_in_years):
+    off = []
+    if age_in_years >= 30 and citizenship_in_years >= 9:
+        off.append('Senate')
+    if age_in_years >= 25 and citizenship_in_years >= 7:
+        off.append('House of Representatives')
+    return off
+Plan: booleanOperatorChaining
+
+Solution: def sum_numeric_vals(d):
+    s=0
+    for key in d:
+        if type(d[key]) == int:
+            s+=d[key]
+    return s
+            
+Plan: sum
+
+Solution: def speeding_ticket_price(speed):
+    if speed <= 65:
+        return 0
+    elif speed > 80:
+        return 100 + 10*(speed-80)
+    else:
+        return 100
+Plan: multiWayBranching
+
+Solution: def is_odd(input_number):
+    if input_number % 2 == 1:
+        return True
+    return False
+Plan: evennessCheck
+
+Solution: def is_a_single_letter(string_arg):
+    if len(string_arg) == 1 and 'a' <= string_arg <= 'z':
+        return True
+    return False
+Plan: booleanOperatorChaining
+
+Solution: def average_from_file(num_file):
+    fp = open(num_file,"r")
+    sv = 0
+    all_lines = fp.readlines()
+    for line in all_lines:
+        sv += int(line)
+    return sv / len(all_lines)
+Plan: sum
+
+Solution: def nested_list_string(numbers):
+    numb_strings = []
+    for row in numbers:
+        nr = []
+        for n in row:
+            nr.append(str(n))
+        numb_strings.append(nr)
+    
+    ns = ""
+    for row in numb_strings:
+        ns+= " ".join(row) +" \n"
+    return ns
+Plan: sum|processAllItems
+
+Solution: def finals_room(last_name):
+    if 'a' <= last_name[0].lower() <= 'g':
+        return 'NOYES 100'
+    elif 'h' <= last_name[0].lower() <= 'q':
+        return 'DKH 114'
+    else:
+        return 'BEV 180'
+Plan: multiWayBranching|booleanOperatorChaining
+
+Solution: def count_candy(candy_list):
+    count_dict = {}
+    for candy in candy_list:
+        if candy in count_dict:
+            count_dict[candy] += 1
+        else:
+            count_dict[candy] = 1
+    return count_dict
+Plan: counting|filterACollection
+
+Solution: def tsv_sum_rows(filename):
+    rs=[]
+    fp = open(filename)
+    lines = fp.readlines()
+    for line in lines:
+        s=0
+        for l in line.split("\t"):
+           s+=int(l)
+        rs.append(s)
+    return rs
+Plan: sum|processAllItems
+
+Solution: def posodd_number_filter(input_number):
+    if input_number > 0 and input_number % 2 == 1:
+        return True
+    return False
+Plan: evennessCheck|booleanOperatorChaining
+
+Solution: def sum_even_nums(input_list):
+    e_s = 0
+    for num in input_list:
+        if num % 2 == 0:
+            e_s += num
+    return e_s
+Plan: evennessCheck|sum
+
+Solution: def select_strings_upto_empty_string(string_list):
+    nl = []
+    for s in string_list:
+        if len(s) == 0:
+            return nl
+        nl.append(s)
+Plan: filterACollection|linearSearching
+
+Solution: def are_same_sign(first, second):
+    if first > 0 and second > 0:
+        return True
+    elif first <= 0 and second <= 0:
+        return True
+    else:
+        return False
+Plan: multiWayBranching|booleanOperatorChaining
+
+Solution: def double_evens(num_list):
+    for i,v in enumerate(num_list):
+        if v % 2 == 0:
+            num_list[i] = v*2
+    return num_list
+Plan: evennessCheck|processAllItems
+
+Solution: def count_even_integers(num_list):
+    count = 0
+    for num in num_list:
+        if num % 2 == 0:
+            count += 1
+    return count
+Plan: evennessCheck|counting
+
+Solution: def even_filter(num1, num2, num3, num4):
+    nl = []
+    if num1 % 2 == 0:
+        nl.append(num1)
+    if num2 % 2 == 0:
+        nl.append(num2)
+    if num3 % 2 == 0:
+        nl.append(num3)
+    if num4 % 2 == 0:
+        nl.append(num4)
+    return nl
+Plan: evennessCheck
+
+Solution: def largest_less_than_threshold(num_list, threshold):
+    largest = -10000
+    for n in num_list:
+        if n > largest and n < threshold:
+            largest = n
+    return largest
+Plan: findBestInCollection|booleanOperatorChaining
+
+Solution: def posodd_number_filter(number):
+    if number > 0 and number % 2 == 1:
+        return "Accepted"
+    return "Rejected"
+Plan: evennessCheck|booleanOperatorChaining
+
+
+
+Use the same format in your answers, and just return
+Plan: {PLANNAME}
+
+If an example does not fit any category, use UNKNOWN as PLANNAME.

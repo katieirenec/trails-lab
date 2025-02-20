@@ -1,0 +1,32 @@
+{
+    "progLargestLessThanValue": {
+        "name": "progLargestLessThanValue",
+        "variants": {
+            "instructor": {
+                "name": "Instructor Solution",
+                "label": "findBestInCollection|booleanOperatorChaining",
+                "code": "def largest_less_than_threshold(num_list, threshold):\n    largest = -10000\n    for n in num_list:\n        if n > largest and n < threshold:\n            largest = n\n    return largest"
+            },
+            "correct-1": {
+                "name": "Student 1 (Correct)",
+                "label": "findBestInCollection",
+                "code": "def largest_less_than_threshold(num_list, threshold):\n    largest= 0\n    x = 0\n    for value in num_list:\n        if value < threshold:\n            x = value \n            if x > largest:\n                largest = x\n            \n    return largest"
+            },
+            "correct-2": {
+                "name": "Student 2 (Correct)",
+                "label": "linearSearching|filterACollection",
+                "code": "def largest_less_than_threshold(num_list, threshold):\n    nl = sorted(num_list, reverse = True)\n    returnlist = []\n    for i in nl:\n        if i < threshold:\n            returnlist.append(i)\n    if len(returnlist) > 0:\n        return returnlist[0]\n    else:\n        return None"
+            },
+            "incorrect-1": {
+                "name": "Student 3 (Partially Correct)",
+                "label": "findBestInCollection",
+                "code": "def largest_less_than_threshold(num_list, threshold):\n    best = ()\n    for thing in num_list:\n        if thing < threshold:\n            thing == best\n    return best"
+            },
+            "incorrect-2": {
+                "name": "Student 4 (Partially Correct)",
+                "label": "findBestInCollection",
+                "code": "def largest_less_than_threshold(num_list, threshold):\n    best = -10000\n    for thing in num_list:\n        if thing < threshold: \n            thing.update(best)\n    return best"
+            }
+        }
+    }
+} 

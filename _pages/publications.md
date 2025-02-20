@@ -60,6 +60,6 @@ permalink: /publications/
 {% for publi in site.data.publist %}
 
   {{ publi.authors }}. {{publi.year}}. <b>{{ publi.title }}</b>.
-  <em><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></em>. 
+  <em><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></em>. {% if publi.note %}{{ publi.note }}{% endif %}
 
 {% endfor %}
