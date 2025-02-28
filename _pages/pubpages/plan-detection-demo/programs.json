@@ -44,7 +44,7 @@
             },
             "incorrect-1": {
                 "name": "Student 2 (Partially Correct)",
-                "label": "findBestInCollection",
+                "label": "counting",
                 "code": "def count_strings_containing_substring(str_list, substr):\n    count = 0\n    if substr in str_list:\n        count += 1\n    return count"
             }
         }
