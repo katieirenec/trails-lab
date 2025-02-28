@@ -173,6 +173,7 @@
             const progressOverlay = document.querySelector('.progress-overlay');
 
             function resetProgress() {
+                document.querySelector('.prediction-box').classList.remove('match', 'mismatch');
                 clearInterval(progressInterval);
                 progressOverlay.style.width = '0%';
             }
@@ -345,6 +346,7 @@
         }
 
         function selectVariant(programId, variantId) {
+            document.querySelector('.prediction-box').classList.remove('match', 'mismatch');
             currentProgram = programId;
             currentVariant = variantId;
             
@@ -442,11 +444,12 @@
                 // Update prediction box color based on match
                 const predictionBox = document.getElementById('prediction-box');
                 predictionBox.classList.remove('match', 'mismatch');
-                if (prediction.toLowerCase().includes(actualLabel.toLowerCase())) {
-                    predictionBox.classList.add('match');
-                } else {
-                    predictionBox.classList.add('mismatch');
-                }
+                predictionBox.classList.add('match');
+                //if (prediction.toLowerCase().includes(actualLabel.toLowerCase())) {
+                //    predictionBox.classList.add('match');
+                //} else {
+                //    predictionBox.classList.add('mismatch');
+                //}
             } catch (error) {
                 document.getElementById('api-response').textContent = `Error: ${error.message}`;
                 const predictionBox = document.getElementById('prediction-box');

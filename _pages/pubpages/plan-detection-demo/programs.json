@@ -28,5 +28,26 @@
                 "code": "def largest_less_than_threshold(num_list, threshold):\n    best = -10000\n    for thing in num_list:\n        if thing < threshold: \n            thing.update(best)\n    return best"
             }
         }
+    },
+    "progCountStringsWithCharSeq": {
+        "name": "progCountStringsWithCharSeq",
+        "variants": {
+            "instructor": {
+                "name": "Instructor Solution",
+                "label": "counting",
+                "code": "def count_strings_containing_substring(str_list, substr):\n    count = 0\n    for s in str_list:\n        if substr in s:\n            count += 1\n    return count"
+            },
+            "correct-1": {
+                "name": "Student 1 (Correct)",
+                "label": "counting",
+                "code": "def count_strings_containing_substring(str_list, substr):\n    x = 0\n    for i in str_list:\n        if substr in i:\n            x += 1\n    return x"
+            },
+            "incorrect-1": {
+                "name": "Student 2 (Partially Correct)",
+                "label": "findBestInCollection",
+                "code": "def count_strings_containing_substring(str_list, substr):\n    count = 0\n    if substr in str_list:\n        count += 1\n    return count"
+            }
+        }
     }
+
 } 
