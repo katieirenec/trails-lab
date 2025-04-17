@@ -1,5 +1,23 @@
 
 # Note: This format cares a lot about indentation
+- title: "Generating Planning Feedback for Open-Ended Programming Exercises with LLMs"
+  image: aied2025.png
+  description: Can we provide feedback on high-level planning approaches, even when students have syntax errors in their submissions? In this work, we propose a method for leveraging LLMs to detect patterns in correct and incorrect submissions, enabling a new dimension of feedback in addition to test-case correctness.
+  authors: Mehmet Arif Demirtaş, Claire Zheng, Max Fowler, Kathryn Cunningham
+  link:
+    url: 
+    display: 26th International Conference on Artificial Intelligence in Education (AIED 2025)
+  logos:
+    - {name: Preprint,
+       link: 'https://arxiv.org/abs/2504.08958'}
+    - {name: GitHub,
+       link: 'https://github.com/marifdemirtas/AIED2025-Planning-Feedback'}
+    # - {name: DOI,
+    #   link: 'https://doi.org/10.1145/3632620.3671120'}
+    # - {name: Blog,
+    #   link: 'https://medium.com/@katieirenec/icer-2024-validating-refining-and-identifying-programming-plans-using-learning-curve-analysis-bf954425b1df'}
+  highlight: 1
+  year: 2025
 
 - title: "Patterns of Major Switching and Persistence in Computing among Students with Disabilities (Poster)"
   image: null
