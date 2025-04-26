@@ -52,14 +52,14 @@
     url: 
     display: 43rd ACM Conference on Human Factors in Computing Systems (CHI 2025)
   logos:
-    - {name: Preprint,
-       link: 'https://arxiv.org/abs/2502.10618'}
+    - {name: DOI,
+      link: 'https://dl.acm.org/doi/10.1145/3706598.3713832'}
     - {name: Demo,
        link: 'http://tryplaid.web.illinois.edu'}
+    - {name: Video,
+      link: 'https://www.youtube.com/watch?v=bMWQWTNqP-A'}
     - {name: GitHub,
        link: 'https://github.com/yosheejain/plaid-interface'}
-    # - {name: DOI,
-    #   link: 'https://doi.org/10.1145/3632620.3671120'}
     # - {name: Blog,
     #   link: 'https://medium.com/@katieirenec/icer-2024-validating-refining-and-identifying-programming-plans-using-learning-curve-analysis-bf954425b1df'}
   highlight: 1
