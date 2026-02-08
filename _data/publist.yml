@@ -1,5 +1,20 @@
 
 # Note: This format cares a lot about indentation
+- title: "Teaching Authentic Programming Applications to Novices: Purpose-first Tutorials in a General Education Computing Course"
+  image: null
+  description: null
+  authors: Mehmet Arif Demirtaş, Claire Zheng, and Kathryn Cunningham
+  link:
+    url: 
+    display: 57th ACM Technical Symposium on Computer Science Education (SIGCSE 2026)
+  logos:
+    - {name: PDF,
+       link: '/pubs/SIGCSE2026_Experience_Report_on_CS102_PFPs.pdf'}
+    - {name: GitHub,
+       link: 'http://github.com/marifdemirtas/SIGCSE2026-PurposeFirstTutorials'}
+  highlight: 0
+  year: 2026
+
 - title: "Applying the Model of Interest Development to Understand Why Non-CS Majors Decide to Persist in or Leave Computing"
   image: null
   description: null
