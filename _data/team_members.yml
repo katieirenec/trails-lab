@@ -30,14 +30,23 @@
   number_educ: 1
   education1: broadening participation and promoting inclusion in computing, non-CS majors, students with disabilities
   # education2:
+  
+- name: Joslyn Orgill
+  photo: joslyn.jpg
+  info: PhD student, started Aug 2025
+  email: jorgill2@illinois.edu
+  logos: 
+  - <a href="https://https://joslynb17.github.io//"><i class="fa-solid fa-user"></i></a>
+  number_educ: 1
+  education1: human-computer interaction, AI in education, computing education research
 
 - name: Yoshee Jain
   photo: yoshee.jpg
-  info: BSc student, joined Jan 2023
+  info: PhD student, started Aug 2026
   email: yosheej2@illinois.edu
   logos: 
-  - <a href="https://yosheejain.github.io/"><i class="fa-solid fa-user"></i></a>
-  - <a href="https://yosheejain.github.io/"><i class="fa-brands fa-linkedin"></i></a>
+  - <a href="https://yosheejain.com/"><i class="fa-solid fa-user"></i></a>
+  - <a href="https://x.com/yosheejain"><i class="fa-brands fa-twitter"></i></a>
   number_educ: 1
   education1: human-computer interaction, AI in education, computing education research
   # education2: 
